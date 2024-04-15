@@ -1,0 +1,12 @@
+name: cartopy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cartopy
+  - xarray
+  - ipykernel
+  - matplotlib
+  - h5netcdf
+  - netcdf4
