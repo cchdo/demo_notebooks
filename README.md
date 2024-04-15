@@ -1,4 +1,4 @@
-# GO-SHIP Demo Notebooks [![Binder Open](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<USERNAME>/<REPOSITORY>/main)
+# GO-SHIP Demo Notebooks [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<USERNAME>/<REPOSITORY>/main)
 
 This repository contains Jupyter notebooks meant as a introduction to analysis of GO-SHIP repeat hydrography data archived on [CCHDO](https://cchdo.ucsd.edu) using Python tools.
 
