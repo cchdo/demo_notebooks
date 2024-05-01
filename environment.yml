@@ -10,3 +10,5 @@ dependencies:
   - matplotlib
   - h5netcdf
   - netcdf4
+  - hvplot
+  - gsw
