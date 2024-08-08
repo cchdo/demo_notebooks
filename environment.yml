@@ -4,8 +4,16 @@ channels:
   - defaults
 dependencies:
   - python=3.9
-  - cartopy
-  - xarray
-  - ipykernel
-  - matplotlib
-  - gsw
+  - pip  # Ensure pip is included
+  - pip:
+      - xarray   # Attempt to install xarray from pip first
+      - ipykernel # Attempt to install ipykernel from pip first
+      - matplotlib # Attempt to install matplotlib from pip first
+      - gsw       # Attempt to install gsw from pip first
+  - cartopy   # Fall back to conda if not available in pip
+  - netcdf4
+  - h5netcdf
+  #- xarray    
+  #- ipykernel 
+  #- matplotlib 
+  #- gsw       
