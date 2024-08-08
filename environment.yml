@@ -6,12 +6,11 @@ dependencies:
   - python=3.8
   - pip  # Ensure pip is included
   - pip:
-      - cartopy  # Attempt to install cartopy from pip first
       - xarray   # Attempt to install xarray from pip first
       - ipykernel # Attempt to install ipykernel from pip first
       - matplotlib # Attempt to install matplotlib from pip first
       - gsw       # Attempt to install gsw from pip first
-  #- cartopy   # Fall back to conda if not available in pip
+  - cartopy   # Fall back to conda if not available in pip
   #- xarray    
   #- ipykernel 
   #- matplotlib 
