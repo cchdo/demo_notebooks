@@ -3,12 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - python=3.9
   - cartopy
   - xarray
   - ipykernel
   - matplotlib
   - h5netcdf
   - netcdf4
-  - hvplot
   - gsw
