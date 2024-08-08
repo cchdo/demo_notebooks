@@ -8,6 +8,4 @@ dependencies:
   - xarray
   - ipykernel
   - matplotlib
-  - h5netcdf
-  - netcdf4
   - gsw
